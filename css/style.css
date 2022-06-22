@@ -131,3 +131,57 @@ main{
 .main-image img{
     width: 623px;
 }
+
+/* ======Final Main======== */
+
+
+/* =====About Me===== */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-img img{
+    width: 600px;
+    border-radius: 5px;
+}
+.about-description{
+    width: 480px;
+    margin-left: 100px;
+}
+.about-description h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--colorPrimario);
+}
+.about-description h2{
+    font-weight: 600;
+    font-size: 50px;
+    color: black;
+}
+.about-description p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--plomo);
+}
+
+/* =====Final sobre mi===== *
+
+/* ======Portafolio===== */
+.contenedor{
+    padding: 103px 130px;
+}
+
+.portafolio{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     gap: 20px; /*Separacion de contenedores */
+}
+.caja img{
+    width: 580px;
+
+}
