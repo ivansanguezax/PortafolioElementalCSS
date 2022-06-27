@@ -1,0 +1,50 @@
+/* Large Screen */
+@media screen and (max-width:1024px){
+    main{
+        padding: 0px 40px;
+    }
+    .main-image img{
+        width: 100%;
+    }
+    .main-descripcion h3{
+        font-size: 20px;
+    }
+    .main-descripcion h1{
+        font-size: 65px;
+    }
+    .about{
+        padding: 0 40px;
+    }
+    .about-description{
+        margin-left: 30px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .servicio-img{
+        width: 100%;
+    }
+    .contenedor{
+        margin: 0px 15px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    
+}
+
+/* Dispositivo Movil L */
+@media screen and (max-width: 425px){
+    
+}
+
+/* Dispositivo Movil M */
+@media screen and (max-width: 375px){
+    
+}
+
+/* Dispositivo Movil S */
+@media screen and (max-width: 320px){
+    
+}

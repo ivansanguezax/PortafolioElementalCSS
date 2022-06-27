@@ -7,6 +7,7 @@
 
     <!-- CSS Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 
     <!-- Google Fonts --> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,27 +19,35 @@
 </head>
 <body>
     
-    <!-- ===Header===== -->
+<!-- ===Header===== -->
+<div class="contenedor">
     <header class="header">
         <div class="logo">
             <img src="assets/Logo.png" alt="Logo">
         </div>
 
         <nav class="menu">
-            <ul>
+            <ul class="navbar" id="navbar">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Proyectos</a></li>
                 <li><a href="#">Sobre mi</a></li>
                 <li><a href="#">Contacto</a></li>
+                <a class="close" href="#">
+                    <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
+                </a>
+
             </ul>
+            <a class="hamburger" href="#navbar">
+                <img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu">
+            </a>
         </nav>
     </header>
-
+</div>
     <!-- ===Fin Header===== -->
 
     <!-- ====Main==== -->
+<div class="contenedor">   
     <main>
-
         <!-- Contenedor 1 -->
         <div class="main-descripcion">
             <h3>Hola soy Elemental</h3>
@@ -56,14 +65,14 @@
         <div class="main-image">
             <img src="assets/Image_hero.png" alt="Imagen del main">
         </div>
-
     </main>
+</div> 
 
     <!-- ====== Final Main ===== -->
 
 
     <!-- ======Sobre mi==== -->
-    
+<div class="contenedor">
     <section class="about">
         <div class="about-img">
             <img src="assets/about.png" alt="imagen Sobre mi">
@@ -78,13 +87,14 @@
             </div>
         </div>
     </section>
-
+</div>
     <!-- ====Fin sobre mi==== -->
 
     <!-- ===== Portafolio ==== -->
 
-    <div class="contenedor">
+<div class="contenedor">
     <section class="portafolio">
+        <div class="cajaMain">
         <div class="about-description portafolio-description">
                 <h3>Portafolio</h3>
                 <h2>Ver mis proyectos para ver mis habilidades</h2>
@@ -109,6 +119,7 @@
         </div>
         <div class="caja">
             <img src="assets/projects/pr7.png" alt="Proyecto">
+        </div>
         </div>
     </section>
 </div>
