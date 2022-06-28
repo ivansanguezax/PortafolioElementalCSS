@@ -98,11 +98,77 @@
         justify-content: center;
     }
 
+    main{
+        padding: 100px 0px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .main-image img, .about-img img{
+        width: 60%;
+    }
+    .main-descripcion, .about-description{
+        margin: 0;
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+    }
+    .main-image, .about-img{
+        display: flex;
+        justify-content: center;
+    }
+    .main-botones{
+        width: auto;
+        gap: 20px;
+        justify-content: center;
+    }
+    .about{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .cajaMain{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .servicio{
+        flex-direction: column;
+        gap: 30px;
+        padding: 0px 0px 30px;
+    }
+    .trabajo{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    footer div:last-child i{
+        margin: 0;
+    }
+    
+
 }
 
 /* Dispositivo Movil L */
 @media screen and (max-width: 425px){
+    main{
+        height: auto;
+    }
+    .main-botones a:first-child, .main-botones a:last-child{
+        padding: 14px 15px;
+        font-size: 15px;
+    }
     
+    h1,h2{
+        font-size: 30px !important;
+        text-align: center;
+    }
+    footer{
+        padding: 60px 0px;
+    }
 }
 
 /* Dispositivo Movil M */
@@ -113,4 +179,15 @@
 /* Dispositivo Movil S */
 @media screen and (max-width: 320px){
     
+    .main-botones a:first-child, .main-botones a:last-child{
+        padding: 12px 10px;
+        font-size: 10px;
+    }
+    h1, h2{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    p{
+        font-size: 10px !important;
+    }
 }
