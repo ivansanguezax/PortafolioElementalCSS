@@ -30,6 +30,7 @@ li{
 
 ul,ol{
     padding: 0 !important;
+    margin-top: 0 !important;
 }
 
 /* ====Header==== */
@@ -67,6 +68,10 @@ ul,ol{
 
 .menu a:hover{
     color: black;
+}
+
+.close, .hamburger{
+    display: none;
 }
 
 /* =====Fin Header==== */
